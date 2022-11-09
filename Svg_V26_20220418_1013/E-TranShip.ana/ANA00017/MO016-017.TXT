@@ -1,0 +1,3 @@
+//MO016-017.TXT ANA00016 TO ANA00017
+V_Puertos		NFI		nouveau fichier
+V_Puertos		FIC-	V_Puertos	Fichier supprimé V_Puertos

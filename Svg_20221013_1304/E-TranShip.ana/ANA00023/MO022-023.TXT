@@ -1,0 +1,4 @@
+//MO022-023.TXT ANA00022 TO ANA00023
+t_commercial		TAR	132	nouvelle taille enregistrement : 132
+t_commercial	com_droit	RUB+		com_droit est une nouvelle rubrique
+t_commercial	com_service	RUB+		com_service est une nouvelle rubrique

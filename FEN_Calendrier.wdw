@@ -1,0 +1,92 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Calendrier
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Calendrier
+ identifier : 0x2356b66319c19531
+ internal_properties : BwAAAAcAAACkTiLJdoPR22hWFwWnXun60R4XYCj/Fv9/xxYiHZ0eg3mJL4i7RnkAcTzclUwJpKbu1/bu64QG0bBjDcw9zq4JLOahK/nOySGy81im5oGc/X0IW63hA+h7OjnNvTteKH+1ZpveIQOnswA4LSbOTNyllNHGIhyG6/GaOPrNw8bI8PEEG010IkzxqXlchiAtAAXvKvlx7aHuwys2NW9b4zunZNGcq8Ipr3fxx916ia1i7kYpM3JHzkG0L16sdsoVRuGlzsxAnPYj+stslhAblPQ5TD41HrtOd5Gip910s6j32x96PjKE6hHq8Md2GajQQ1aaJCf8/b4P1ozKhWI1pm74qFaAFsR+bCL45VVgsle6fCS91keKTCizxGXXFSI5ILZ4U+WgcuUjzDZ8T5LvI2AMZie8iaZnr2wbWfcTNqRgN3Lt2wCtoPcmyGMrNJ5qjrW5w1deywrOUUDyLfvr4FHsdjqlkO/X/xAHQBXdUgwombertDmmWEcO/jyhl/Fef15oja4HRSV7YjrgiRtyfoNeQHOug4rYr/bnI224tmBQHUQooybZkyB/KxUOQ4OND7Z2iGDXMglh33g8ZUordgzr0LRXvnrUNg1NfFzMaVQvZwVnd8dRKpva1GMZzrgAbvwcKKEfqfVyTzC6lNhsPrRSGZsslQR54rArJw/BIeapKSkRmsulnFBdaprJmgUqASq7eQyxuO/GP24FvpzZ5stQ6NTmlFutBlGehPV34QR602BFLzO/i9eaB89SLTYOjuV0SqAcYZm0AsObf6Lh2kJJoazpj0wGcCX2IWCti8fe2czG6Z8Hn5m8ODXQ/1aaQkkLRURiT6fLKuqYsbdsChqcYjFwHuzgNw==
+ properties :
+  width : 461
+  height : 376
+  widthClient : 459
+  heightClient : 344
+ controls :
+  -
+    name : CAL_SansNom1
+    identifier : 0x2356b68719c92089
+    internal_properties : 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
+    properties :
+     x : 12
+     y : 16
+     width : 433
+     height : 316
+    type : 47
+    code_elements :
+     type_code : 100
+     p_codes :
+      -
+        code : |1+
+         gdNew_DateFact		= ""
+         gbWp_SelectAction	= Faux
+        type : 14
+      -
+        code : |1+
+         gdNew_DateFact		= CalendrierSelect(CAL_SansNom1)
+         gbWp_SelectAction	= Vrai
+         Ferme(FEN_Calendrier)
+        type : 124
+      -
+        code : |1+
+         gdNew_DateFact		= CalendrierSelect(CAL_SansNom1)
+         gbWp_SelectAction	= Vrai
+         Ferme(FEN_Calendrier)
+         //Ferme(FEN_Calendrier,CalendrierSelect(CAL_SansNom1),1)
+         
+         
+        type : 66051
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BwAAAAcAAABHivBqFH8xYQq/QELUltmClIuqm9KM3lg0XSaBAQ41WqT06R9JfU0qGK5sHUl8/xHCuvP3y9tLeLLOVaAgM2FjnfwSCRBgXqneLsHogwTYpIXuB1zp2uXtmOXYyGd6i+ek6BBvtJ0ylgF/MxkRihdZ26pl/9Jf5c+sxo07G0ZzHfcLEu9WD07gTSld25EPGWjvi/e5TxaHOZSRE8C5Ig+YdJawYdK89l+x1ofEmw3pfCNLUe3tNoiwg4AbC1jLdufmJ97Xc0JHDAy7gJsHBzEWwcuroqy2By4PJ4c6Wg==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BwAAAAcAAADG0006i3ptxMcUE+O5cGvDhb43eRlY9UEE1z/7izK93v/ToMiwACETQQw4eQhZuJRMFa6SBwwT+zSdDbdc5HEkXDob51ldPFNKsP+0MWY=
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      gdNew_DateFact est un date
+      gbWp_SelectAction est un booléen
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      //Ferme(FEN_Calendrier,"",0)
+      Ferme(FEN_Calendrier,gdNew_DateFact,gbWp_SelectAction)
+     type : 2
+ code_parameters :
+  internal_properties : BwAAAAcAAAARaqIs1pWWTrjJkc2sbefp8NGAHSVvdRgpQIePRe9rhkbpERRVEF+Nx8mIqTxrVGdwHX99jtU=
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1356b65300f15682
+  internal_properties : BwAAAAcAAAAZ++HSz2luvwiNhadWl8v3mh2d0Pq0fCIps02kogrcwVHmCg==
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BwAAAAcAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

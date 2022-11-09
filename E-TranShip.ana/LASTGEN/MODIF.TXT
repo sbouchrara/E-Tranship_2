@@ -1,0 +1,4 @@
+//MO092-093.TXT ANA00092 TO ANA00093
+V_IMPPARTIDAS		TAR	21266	nouvelle taille enregistrement : 21266
+V_IMPPARTIDAS	strNumPdaNCL	TAI+	200	la rubrique strNumPdaNCL a comme nouvelle taille 251 au lieu de 51
+Autorisation	Permission_userid	CLEN		la rubrique Permission_userid est maintenant une clé

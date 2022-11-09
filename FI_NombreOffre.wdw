@@ -1,0 +1,67 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_NombreOffre
+ major_version : 27
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_NombreOffre
+ identifier : 0x293d56eb18d4fdfa
+ internal_properties : BwAAAAcAAAB0aSGEvr3MCvNCB7CGjWpih7tN5o4I8Z0Jq63gnML4/dGJGiEuRM/0N3HO12ozyA1nL5ikxd38zJ28lUVLh3zyu3PXt7F9q4DTDOYr1M23X1V0zwtfNavOBG8jYzW8gQ6KS+n2PzoAVWGsEr22VFLmCOAxPcK5PyGvk4QMJc8YCOliX+3/jz96oYhv7PFX2kihLGZbZKVNqPTiejdjZhAvlb5cpTTCqZqHO3rC7UoDuyoweYbRE2afCU0yOrcxaC0gieXeu8d6UnCnU5bhDUHQpIIelgcV1Yaz27nvwPU5Cj8CQ6taDdWeuKZ9ZIJs5nhn7GgH6Qso5nHqgEx/XVipvpkdyntM5hE2gbe9v1UsM52CYP/KT/CrJ0rDuR4dJEBq26+2a31caNJFCsZrEYuGhdhih+9ZHIgkYSP591Gss+XZ+ivmy3WIev+EmOaMynFhoh8z47LRxGw0Y+S202oQyDYyVhhN9Cc3K4JdtWHLlwM0DY4WbUrvlZQgUv3HJKdG7xRjtxi59yJE98F19+ILp9JXxUpX8JZUPZSYLl31zNu2e5OsaFd4mCJztyO/WDPwYoTDbPqAccW2ODMDGYFMgT4yxWp7sruMSJE/xW+kQc4l+TOC4E1wXMubwxzzLcVjRkcjdAkytILBEyOPoHH2
+ properties :
+  width : 310
+  height : 150
+ controls :
+  -
+    name : FI_NombreOffre
+    identifier : 0x293d56eb18d5fdfa
+    internal_properties : BwAAAAcAAABWAvTDQWWZrggdzrMhyjxkbQC6pNCTrjpognT2dYXU5TowwXp/5GZaycY1lDwtw+GOjsYdWlOu2m0lgSjTzuetSAddRU8PfgS5pKIjYrXcUGGgosDnPfRKpfW+hsw70lo8agHCJIeGKsfK76T8XBWWlWkjDIsGaCNihBzO66b2NrRsZboIN4JrBSYBOA73fUrAYDLe2YX4R3B4TM5cvTJffAyWPlh60v1rFCsnriiQbTr2bRHZzKdCwO8ZJij9kcbDLTuaIIPlCrkJUGReIleyEgme18hbD3ZFUzCE167GspldCEoUK3jCJgk+PYULH4dVQlzeupzANEshUmpd5kH/HgPFdDyNB3avg7kE9uW9sChs0TwUfDufX4qK1yqFHZ/lkih4slTmqjyWKns+6xAARPG+RX9TP5+wN40kI0UNZavgO3lz1S7jjQk+O9JH2xYpUu0cN7WfhX21qvE=
+    properties :
+     width : 310
+     height : 150
+    controls :
+     -
+       name : FRM_SansNom1
+       identifier : 0x293d6d5f3602b155
+       internal_properties : BwAAAAcAAABOdkbEgUB+KGpmS4bKYAsp+Puny3LD4JjiIZ2MavhrKa0eh3bLmf/M8R72tU4MN6hWXNvRqKVBgKsT3M0VzdFYn4AsoXdv9RESBABMnQDSxqP+AGejnrXFbwQkSs2sb2ZOKEyo5EyURry0NspV46dEdHmLW1brJRpY1JJTq2YNRkWcIEUtOCkSA66SDnx/Zsvbz6rVgk29vMYYy5u70dy+LhNhdiWvdjSjQFKvKa2ygFT3PXIPxGtDL7CdGSNlKy1m0/MogWHTfhIi9ay+p9w9HAgBmmGSiELMkOVNf0mddOD1LCPlJ6Tv/UIjTBBdFtpCf76MgQgu17nESD39Ap8ebkgVzvgHh4X2m6d7Dzvxr3w5r6cb23hFpjerUUT5mJGeF8qAemJCYs/Bkgk=
+       properties :
+        y : -1
+        width : 310
+        height : 4
+       type : 20
+       code_elements :
+        type_code : 32
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+ menu :
+  name : _Menu
+  identifier : 0x293d56be18d14e52
+  internal_properties : BwAAAAcAAABhHrstMa4Z9rl6OwYjS84TLQsX3FeSpLFLw6OvT/q0TTop6246LIQjRYH2rort/iXEVEG8h3nssqS9OS6nlahnSvHNwBZ3KPsCPDNV6DqMwv3sqAqt2U3nDV0zIOu+QVCE7sm+q8pvNYbcweI/Xf5+pTd110qVRHw/aPAqbcyH6tUlS/E0iUY84n4p3RgoGt7SEUhHX03No4MSlCtrbTApzAPbqfYJ36YXNFxnrnahZBQZtLha7RY6axUM6IhAnoOpGhtv9Xz9dSbxjTRMiNTba5ANViKqxytyMeFsUOpUDAB+A66iElDh
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BwAAAAcAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x193d56be011f4e52
+  internal_properties : BwAAAAcAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BwAAAAcAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

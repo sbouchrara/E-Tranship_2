@@ -1,0 +1,9 @@
+//MO019-020.TXT ANA00019 TO ANA00020
+Relation_Client_commercial		NFI		nouveau fichier
+t_commercial		NFI		nouveau fichier
+Commercial		FIC-	Commercial	Fichier supprimé Commercial
+Relation_Client_commercial		FIC-	Relation_Client_commercial	Fichier supprimé Relation_Client_commercial
+FK_Relation_Client_commercial_Client		NWL	Client (IdClient) et Relation_Client_commercial (IdClient)	Nouvelle liaison entre les fichiers Client (IdClient) et Relation_Client_commercial (IdClient)
+FK_Relation_Client_commercial_Commercial		NWL	t_commercial (com_id) et Relation_Client_commercial (IdCommercial)	Nouvelle liaison entre les fichiers t_commercial (com_id) et Relation_Client_commercial (IdCommercial)
+FK_Relation_Client_commercial_Client		DEL	Client (IdClient) et Relation_Client_commercial (IdClient)	Liaison supprimée entre les fichiers Client (IdClient) et Relation_Client_commercial (IdClient)
+FK_Relation_Client_commercial_Commercial		DEL	Commercial (IdCommercial) et Relation_Client_commercial (IdCommercial)	Liaison supprimée entre les fichiers Commercial (IdCommercial) et Relation_Client_commercial (IdCommercial)

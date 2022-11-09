@@ -1,0 +1,4 @@
+//MO025-026.TXT ANA00025 TO ANA00026
+SecteurActivite	SousClasse	CLE-		la rubrique SousClasse n'est plus une clé
+t_compteur	cpt_table	CLEN		la rubrique cpt_table est maintenant une clé
+t_compteur	cpt_annee	CLEN		la rubrique cpt_annee est maintenant une clé

@@ -1,0 +1,3 @@
+//MO027-028.TXT ANA00027 TO ANA00028
+t_detailoffre		NFI		nouveau fichier
+t_pjoffre		NFI		nouveau fichier

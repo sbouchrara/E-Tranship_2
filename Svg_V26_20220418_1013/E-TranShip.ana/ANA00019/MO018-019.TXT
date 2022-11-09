@@ -1,0 +1,3 @@
+//MO018-019.TXT ANA00018 TO ANA00019
+V_MONEDAS		NFI		nouveau fichier
+V_ROME_corres_conceptos		NFI		nouveau fichier

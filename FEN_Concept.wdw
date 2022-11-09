@@ -1,0 +1,256 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Concept
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Concept
+ identifier : 0x227e13be10300622
+ internal_properties : BwAAAAcAAAByWSH1x4U03UogC5b3pWcfJ7FZ1pnLfE3nDm3Zejbo1U6/SmvA/d9x1PSqBFKTLobLMGRORGbJae7t7/SOXuWM9OjlJXZoNojUTD/0TfrmTv37+JULHzEcGG1Z1PmN6CbbKGPCxSKjO0zpbsOaSPFpFSV3xRp/YzXu/dbSjhKbL/hkzJDvYAFTVquWuzpIzKDeNG8AUYgCb2P0Dq/AeuA+ieVwji5x10E/31X8aoMfix0fFQ9Hzi5KECKDjn7TOrs2LQW7y6bPslW9E2AORcFLA5OZsTn4JwDTc5BmhzbcSCm0wQkGk11/j6lxXDgCAxvFTjx0FhPewzAiKeM1TGJ2LnMjVszeH8nWK3qqIEi+4I1IC5k9UOkQspJKGTH6s/BdbvhtPOuzo2GgsIViiC8Ylw9C4be6B3zPUuXz6flaKXSbwMDyNUhJc6CRjsWoy49/PnB+glMe+s8ku7Zyr+I9SdYb8YHwq2FOf0hDW9aT545jqEuKLpmk/BA9TJtCwusPNTMjI3TE+mOfDulQK2fIQo98cpoM9iFZiv2W0M1y3xIEGRU95hIXj/Zs0iIr5NndtdLYALxbZRT2+RAMgyQU9M7xS5XEAlk4/BwrPRcTPAYGu3u6wcdfEiIrvu3w6QyCv4lT8QOA6S6NF+mfVX5AicIzZ4q91g6KbcdoDwRRKieXorw9MuG02XqaYlwi56Rhf6Kd4eRn2MybpRlHQRjWws4ti8xwEkIv1Cv5XcK0rZg23fy203Be/oIvw3YNHEfD9sTWJpEIKJIc1oZMwYByZbdqW3+YDj9igf5/fYWDuDajNcE1
+ properties :
+  width : 870
+  height : 512
+  widthClient : 868
+  heightClient : 480
+ controls :
+  -
+    name : SAI_RechercheClient_Recherche
+    identifier : 0x227e13be10320622
+    internal_properties : BwAAAAcAAABEADamLrqCtdvUU38AWkWvvTCdJKulSQlQ5j/MZDsjAdITspGmQ2Ptq5TaZLsLmsV1G2sanOCQw5W6AHzG8OkefUKGukPa3TUul+D3/1PY78bCatyRSgjaFV7lsHlYNzJ29Ll1YP5b7pPqQHI6Up98DaWC8p8d6njycgVANeER1tU7dKX2Gr1FMfLJAxjrZlAtttsvkhY5r5e2tUSXJqx64ZJnAInq9t1q5di4CGXLb2wEXaXJSK5+I44Wnlhack75DAltAJ0bOXRdeq0ZJQ4DYLEeNzvycr6OiBC/AzGeYYfb4Oz2Emzkfct3TDFlNeqqujYK3MCE4870mpG482Qc8fd6J3F/Wm+e4MgzMbOT2b5YeehOdp3zrmgScVRK7yl+qG/BfNihb5jQ5KiZqfWlepHoUh5qY6FS/e69ute/7MdsPrezZ2C6ZlsLAWaWN3ZgOL21aKxUtCEQai3UoQLtV7vNSyNVDfXuIz5YBmm20pqeDxR42DMiNMU81u8osNVKDhWj6/+nOhOn7ybSrhIF1TauGVbONgH/C9sapFj3TnaaY3LES39wrJgJp8eZXsmTE+glro9knE3rKEireCJCAP036RcfQH4drzvY+y+fMBlUnQqkt1m5X0jr5mGeHu000CtjTCrWt1dwGXJ61fHdbk13CEIuYClfmq3Pkl1+vvA9mS/Kxv4AELh3lBTUWEfbXOJ9eMGH2RzsO+txHKiymCdKTTPGTe2Itx2zAZa+ib3xO3zhA4EZrNr4d7HA8P/+nbHfOfGbTJQf21lyAmlyl1wWLXSs9xn7KI76ACcFl1kGhdsEmmxHfF5DJHuyUjyBkekv/OL20NMymjnUs3/SXfqw2aRFfkVppuzijjbq7gIBekRVL7cnWPaDIfr2hhiT+WH486HDzw5G2UWULSHIUVwT5no3fbAgEdXRAJdsY6RqcJ8OgNCSbYSGvQVm0Rq7UveESl3graxBMK4hvtjBcLRUC138CXypKVajZ1QsZ+mzBImUITLc20m2B2AZ8OHodSDv+3j3ytwpVLcsEvboN4Auwas6Y0HSATBRfQIaY16W3AFJbUOXOTAAdi7KVkeBegUI71GKd39pzEoBS0gUZ2rwtgU66elnqjTNN1eBAPu9EYravqUBvPJNXiryVuxh9PNH+f/GUqRyHhRhSo4PgxXf69fdFfSFZYAKN+Nz2hDhxF287ZbOdL5w/uWuhdZeOFUs5N0sL4s8GdivBjbi4Ricv8NKamxkZsvOC9o6mbg=
+    properties :
+     x : 304
+     y : -9
+     width : 249
+     height : 28
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         SI ToucheEnfoncée(VK_RETURN) ALORS 
+         	//ThreadExécute("Thread1",threadContexteGlobal,Recherche_ClientWT)
+         FIN
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : ONG_Concept
+    identifier : 0x227e172712ba56b3
+    internal_properties : BwAAAAcAAACMvgqBg+jRkMBqY6lOPmBYTMC028PBsXaZqTQrtxOHizlLs89o9CqVV4OZts5dldcw1H8O68ktnHH4fO4N5i3tYl+rPO+e9r1MlLfoworuXyoIktz3ZpEUadk9ToI/WQ7IIJOozON4tZJBHBdjgCmryXJbRAvDmtpR3viX6nwuuNfOZyk2F24p9vtuOvRl+i62/P6EKYUbqhVa61sCyxit3Xm06IK5VTJJyVmRHbz+or4rY5B8FhWS41ja58HGNRo1XefjAhige2rgK3uPeNg/YMraAWCydvn6yvesoCHo/pp2GUiCgBwJZWBvRq0r3xwNv29hxOa8zYQJR2LmCc49X2bARYP1vvNYqx0lFqOmPQyamM1NjPrTc9nZCEkoBOK9bxfIEFd0Fgfy6wD0bFfIWp80ujybON1db7Ld76UDYLs1VNDfk+gAJEFWJj025munU0PVlEiFDi6WivFWqgse+Ve+PpeSMlI6c9ZazGLUUsKb8C1jJixIutrdZQjKeanyAFqvt+nvHe9ks95hjwOyIZI5mQShcxfSbVrzwwqOWW0qJW/NczzWtARFSS63e8RwmbH/iFhFL7d2wOKnBpaJ+4GCT+O9afVsVKO38FxRmH36neaVkcUrbLX3JDhsEa74uHz/ztCAKPfcoOCgy5K0NhTN9jyKVnpp+rm+l3sc6uylT63QV+B8Ry+0wfEo9CoGwo4ccWCRhTHE1XQxawjJHjpjSDhyp30P+wRyxTzYkT7Tx8Xmdoic3kl+fQvRk44+TWpe37MFPlkOojTSMGg7MhNYoGUnro5EjoHi3YzqOhDKijTp+CMvk37D64ZtrsrPc6U3TChcoVoehrd4jSY8C+kjKWHOVVTl8jEYPwPrRO3yvgbpVeMhLowiX517mr5u+tvjUSel/ut65Goif2pbtAEr4X+8uxz/JCvtbEp2cPEdwGEeQGqIDlWaeJ1fG1DiANmm5R7qhOL1Icz0TxmUX4NxzwS++mv/ZResJjTvmB2fOmT7g9JXqpKIntZVnjKVBS/vWEaePBiA8PvSBNWc+qd8q7OmPLwMbFu0CbYdEe9cPKV3EHL4TeoaN7a//NWkkyo8WO2foQdo6avVEXj/vDGY/Zx/EKl24CpgRTVz6xZhNTUpCWAf2SddhLGyFwO2VujAjCnDshVgY/4lxPJNGTKxng8i/ko3QE+KURoFvXlavbWWIPhhq8ju4lkiKChkkWVYbujaEjaZZ5KsMSUqF+TmIj/WsGbuzmFASM/JoV6Djw==
+    properties :
+     x : 10
+     y : 52
+     width : 837
+     height : 391
+    tabs : []
+    type : 16
+    code_elements :
+     type_code : 24
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BwAAAAcAAABHivBqFH8xYQq/QELUltmClIuqm9KM3lg0XSaBAQ41WqT06R9JfU0qGK5sHUl8/xHCuvP3y9tLeLLOVaAgM2FjnfwSCRBgXqneLsHogwTYpIXuB1zp2uXtmOXYyGd6i+ek6BBvtJ0ylgF/MxkRihdZ26pl/9Jf5c+sxo07G0ZzHfcLEu9WD07gTSld25EPGWjvi/e5TxaHOZSRE8C5Ig+YdJawYdK89l+x1ofEmw3pfCNLUe3tNoiwg4AbC1jLdufmJ97Xc0JHDAy7gJsHBzEWwcuroqy2By4PJ4c6Wg==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BwAAAAcAAADG0006i3ptxMcUE+O5cGvDhb43eRlY9UEE1z/7izK93v/ToMiwACETQQw4eQhZuJRMFa6SBwwT+zSdDbdc5HEkXDob51ldPFNKsP+0MWY=
+  controls :
+   -
+     name : CBM_SansNom
+     identifier : 0x227e13be10380622
+     internal_properties : BwAAAAcAAABTwxd2zATxMHzDBw4vo74DmqOegMkiWf1jUoFtw78ozwAFcdgIlzgjUbFoepdXSz78wjjcFqpg+N8J4rPSUFMa4WQDzrV0q1E7
+     code_elements :
+      type_code : 62
+      p_codes :
+       -
+         type : 15
+         enabled : false
+       -
+         type : 16
+         enabled : false
+       -
+         type : 39
+         enabled : false
+       -
+         type : 17
+         enabled : false
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      //PROCEDURE MaFenêtre(gPTypeFiche)
+      //Si gPTypeFiche="1" ALORS
+      //	// Secteur Activité	
+      //	
+      //FIN
+      //ONG_Concept
+      NouvVolet est un Champ
+      NouvVolet <- OngletOuvre(ONG_Concept, "Nouveau document", FI_Concept)
+      //NouvVolet.Image = "new.png"
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : Alimentation_TableEtatClient
+     procedure_id : 1332524246523381282
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Alimentation_TableEtatClient ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Alimentation_TableEtatClient()
+      //TableSupprimeTout(TABLE_EtatClient)
+      //
+      //HLitPremier(t_etatclient,etatclient_description)
+      //TANTQUE HTrouve(t_etatclient)
+      //	TableAjouteLigne(TABLE_EtatClient,t_etatclient.etatclient_id,t_etatclient.etatclient_description)
+      //	
+      //	HLitSuivant(t_etatclient)
+      //FIN
+      //
+      //ONG_EtatClient_1_Visible()
+     type : 458752
+   -
+     name : ONG_EtatClient_1_Visible
+     procedure_id : 1332524246523446818
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // ONG_EtatClient_1_Visible ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE ONG_EtatClient_1_Visible()
+      //ONG_EtatClient[1]..Visible = Vrai
+      //ONG_EtatClient[2]..Visible = Faux
+     type : 458752
+   -
+     name : Recherche_ConceptWT
+     procedure_id : 1332524246523512354
+     type_code : 14
+     code : |1+
+      PROCEDURE Recherche_ConceptWT()
+      //IMG_ANI_CircleCrossingBall64_64_1..Visible = Vrai
+      
+      //TableSupprimeTout(TABLE_ConceptListe)
+      //f est un entier
+      //n est un entier
+      //
+      //n = Taille(SAI_RechercheClient_Recherche)
+      //SI n > 0 ALORS
+      //	d = Position(SAI_RechercheClient_Recherche,"*",1,DepuisDébut)
+      //	f = Position(SAI_RechercheClient_Recherche,"*",n,DepuisFin)
+      //	SI d = 1 et f > 1 ALORS
+      //		REQ_ClientWT_3.ParamNombre = milieu(SAI_RechercheClient_Recherche,d+1,f-(d+1))
+      //		HExécuteRequête(REQ_ClientWT_3)
+      //		HLitPremier(REQ_ClientWT_3)
+      //		TANTQUE pas HEnDehors(REQ_ClientWT_3)
+      //			SI REQ_ClientWT_3.IdEstado="1" ET REQ_ClientWT_3.IDGROM<>0 ET REQ_ClientWT_3.IDGROM<>"NULL" ALORS
+      //				TableAjouteLigne(TABLE_RechercheClient_Liste,REQ_ClientWT_3.ID,REQ_ClientWT_3.Nombre,REQ_ClientWT_3.IDGROM)
+      //			FIN
+      //			HLitSuivant(REQ_ClientWT_3)
+      //		FIN
+      //	sinon si d > 1 et f > 0
+      //		REQ_TGY_Client.ParamNombre = Gauche(SAI_RechercheClient_Recherche,f-1)
+      //		HExécuteRequête(REQ_TGY_Client)
+      //		HLitPremier(REQ_TGY_Client)
+      //		TANTQUE PAS HEnDehors(REQ_TGY_Client)
+      //			SI REQ_TGY_Client.IdEstado="1" ET REQ_TGY_Client.IDGROM<>0 ET REQ_TGY_Client.IDGROM<>"NULL" ALORS
+      //				TableAjouteLigne(TABLE_RechercheClient_Liste,REQ_TGY_Client.ID,REQ_TGY_Client.Nombre,REQ_TGY_Client.IDGROM)
+      //			FIN
+      //			HLitSuivant(REQ_TGY_Client)
+      //		FIN		
+      //	sinon si d = 1 et f = 1
+      //		REQ_ClientWT_2.ParamNombre = Milieu(SAI_RechercheClient_Recherche,d+1,n-1)
+      //		HExécuteRequête(REQ_ClientWT_2)
+      //		HLitPremier(REQ_ClientWT_2)
+      //		TANTQUE PAS HEnDehors(REQ_ClientWT_2)
+      //			si REQ_ClientWT_2.IdEstado="1" et REQ_ClientWT_2.IDGROM<>0 et REQ_ClientWT_2.IDGROM<>"NULL" ALORS
+      //				TableAjouteLigne(TABLE_RechercheClient_Liste,REQ_ClientWT_2.ID,REQ_ClientWT_2.Nombre,REQ_ClientWT_2.IDGROM)
+      //			FIN
+      //			HLitSuivant(REQ_ClientWT_2)
+      //		FIN
+      //	FIN	
+      //	
+      //FIN
+      //IMG_ANI_CircleCrossingBall64_64_1..Visible = Faux
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BwAAAAcAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x127e13be00a20660
+  internal_properties : BwAAAAcAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+  strings :
+   -
+     text :
+      fr-FR : Etat client existe déjà dans la liste
+     index : 0
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BwAAAAcAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

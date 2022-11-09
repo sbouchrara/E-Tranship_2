@@ -1,0 +1,13 @@
+//MO020-021.TXT ANA00020 TO ANA00021
+Realtion_Client_Adresse		FIC-	Realtion_Client_Adresse	Fichier supprimé Realtion_Client_Adresse
+Relation_Client_commercial		FIC-	Relation_Client_commercial	Fichier supprimé Relation_Client_commercial
+Relation_Client_Traffic		FIC-	Relation_Client_Traffic	Fichier supprimé Relation_Client_Traffic
+Traffic		FIC-	Traffic	Fichier supprimé Traffic
+FK_Realtion_Client_Adresse_Adresse		DEL	Adresse (IdAdresse) et Realtion_Client_Adresse (IdAdresse)	Liaison supprimée entre les fichiers Adresse (IdAdresse) et Realtion_Client_Adresse (IdAdresse)
+FK_Realtion_Client_Adresse_Client		DEL	Client (IdClient) et Realtion_Client_Adresse (IdClient)	Liaison supprimée entre les fichiers Client (IdClient) et Realtion_Client_Adresse (IdClient)
+FK_Relation_Client_commercial_Client		DEL	Client (IdClient) et Relation_Client_commercial (IdClient)	Liaison supprimée entre les fichiers Client (IdClient) et Relation_Client_commercial (IdClient)
+FK_Relation_Client_commercial_Commercial		DEL	t_commercial (com_id) et Relation_Client_commercial (IdCommercial)	Liaison supprimée entre les fichiers t_commercial (com_id) et Relation_Client_commercial (IdCommercial)
+FK_Relation_Client_Traffic_Client		DEL	Client (IdClient) et Relation_Client_Traffic (IdClient)	Liaison supprimée entre les fichiers Client (IdClient) et Relation_Client_Traffic (IdClient)
+FK_Relation_Client_Traffic_Traffic		DEL	Traffic (IdTraffic) et Relation_Client_Traffic (IdTraffic)	Liaison supprimée entre les fichiers Traffic (IdTraffic) et Relation_Client_Traffic (IdTraffic)
+FK_Traffic_Pays		DEL	Poste (IdPoste) et Traffic (PaysOrigine)	Liaison supprimée entre les fichiers Poste (IdPoste) et Traffic (PaysOrigine)
+FK_Traffic_Pays1		DEL	Poste (IdPoste) et Traffic (PaysDestination)	Liaison supprimée entre les fichiers Poste (IdPoste) et Traffic (PaysDestination)

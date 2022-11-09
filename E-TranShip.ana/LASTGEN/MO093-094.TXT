@@ -1,0 +1,23 @@
+//MO093-094.TXT ANA00093 TO ANA00094
+V_IMPPARTIDAS		TAR	22689	nouvelle taille enregistrement : 22689
+V_IMPPARTIDAS	idWTImpPartida	RUB+		idWTImpPartida est une nouvelle rubrique
+V_IMPPARTIDAS	WWAShipmentReference	RUB+		WWAShipmentReference est une nouvelle rubrique
+V_IMPPARTIDAS	hold	RUB+		hold est une nouvelle rubrique
+V_IMPPARTIDAS	UsuarioAvisoMercancias	RUB+		UsuarioAvisoMercancias est une nouvelle rubrique
+V_IMPPARTIDAS	RequiereCartaUso	RUB+		RequiereCartaUso est une nouvelle rubrique
+V_IMPPARTIDAS	FechaNotifPrevVaciado	RUB+		FechaNotifPrevVaciado est une nouvelle rubrique
+V_IMPPARTIDAS	ManifiestoID	RUB+		ManifiestoID est une nouvelle rubrique
+V_IMPPARTIDAS	ManifiestoPartida	RUB+		ManifiestoPartida est une nouvelle rubrique
+V_IMPPARTIDAS	RevalidarA	RUB+		RevalidarA est une nouvelle rubrique
+V_IMPPARTIDAS	lisvac_enviado	RUB+		lisvac_enviado est une nouvelle rubrique
+V_IMPPARTIDAS	lisvac_fecha_enviado	RUB+		lisvac_fecha_enviado est une nouvelle rubrique
+V_IMPPARTIDAS	FRetirada1erAvisoCorr	RUB+		FRetirada1erAvisoCorr est une nouvelle rubrique
+V_IMPPARTIDAS	FRetirada2oAvisoCorr	RUB+		FRetirada2oAvisoCorr est une nouvelle rubrique
+V_IMPPARTIDAS	BreakdownReviewed	RUB+		BreakdownReviewed est une nouvelle rubrique
+V_IMPPARTIDAS	idKotyka	RUB+		idKotyka est une nouvelle rubrique
+V_IMPPARTIDAS	FechaTranspasoKotyka	RUB+		FechaTranspasoKotyka est une nouvelle rubrique
+V_IMPPARTIDAS	NotificationWebList	RUB+		NotificationWebList est une nouvelle rubrique
+V_IMPPARTIDAS	rubrique	RUB+		rubrique est une nouvelle rubrique
+V_IMPPARTIDAS	GestionadoPorExterno	RUB+		GestionadoPorExterno est une nouvelle rubrique
+Autorisation		TAR	150	nouvelle taille enregistrement : 150
+Autorisation	Permission_ArbreID	RUB+		Permission_ArbreID est une nouvelle rubrique

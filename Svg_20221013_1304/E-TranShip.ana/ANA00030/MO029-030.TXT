@@ -1,0 +1,2 @@
+//MO029-030.TXT ANA00029 TO ANA00030
+t_offre	offre_anneeoffre_numero	RUB+		offre_anneeoffre_numero est une nouvelle clé

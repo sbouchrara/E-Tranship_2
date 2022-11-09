@@ -1,0 +1,2 @@
+//MO090-091.TXT ANA00090 TO ANA00091
+ROME_corres_conceptos		NFI		nouveau fichier

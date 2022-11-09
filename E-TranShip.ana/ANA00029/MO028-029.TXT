@@ -1,0 +1,3 @@
+//MO028-029.TXT ANA00028 TO ANA00029
+V_EQUIPO		NFI		nouveau fichier
+V_INCOTERMS		NFI		nouveau fichier

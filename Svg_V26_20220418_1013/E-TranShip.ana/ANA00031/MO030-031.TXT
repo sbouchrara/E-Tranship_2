@@ -1,0 +1,3 @@
+//MO030-031.TXT ANA00030 TO ANA00031
+t_offre		NFI		nouveau fichier
+t_offre		FIC-	t_offre	Fichier supprimé t_offre

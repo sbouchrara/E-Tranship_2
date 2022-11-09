@@ -1,0 +1,321 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_ProcéduresGlobales
+ major_version : 27
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x18da887100356a0a
+ internal_properties : BwAAAAcAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : RechercheNom_Commercial
+     procedure_id : 1817127876132985610
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //RechercheNom_Commercial (<Param_id>, <P_NomCommercial>)
+      //
+      // Paramètres :
+      //	Param_id : <indiquez ici le rôle de Param_id>
+      //	P_NomCommercial : <indiquez ici le rôle de P_NomCommercial>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      // 	Param_nom : <indiquez ici le rôle de Param_nom>
+      PROCEDURE RechercheNom_Commercial(Param_id,P_NomCommercial)
+      HLitRecherche(t_commercial,com_login,Param_id,hIdentique)
+      si htrouve ALORS
+      	P_NomCommercial = t_commercial.com_nom
+      sinon
+      	P_NomCommercial = ""
+      FIN
+     type : 458752
+   -
+     name : Recherche_TypeService
+     procedure_id : 1817134546217897549
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Recherche_TypeService (<Param_id>, <P_Type>)
+      //
+      // Paramètres :
+      //	Param_id : <indiquez ici le rôle de Param_id>
+      //	P_Type : <indiquez ici le rôle de P_Description>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      // 	Param_nom : <indiquez ici le rôle de Param_nom>
+      PROCEDURE Recherche_TypeService(Param_id,P_Type)
+      HLitRecherche(t_services,typservice_id,Param_id,hIdentique)
+      
+      si htrouve ALORS
+      	P_Type = SansEspace(t_Services.typservice_description)
+      sinon
+      	P_Type = ""
+      FIN
+     type : 458752
+   -
+     name : RechercheNom_Client
+     procedure_id : 1817974147937299427
+     type_code : 15
+     code : |1+
+      // Paramètres en entrée:
+      //	Param_id : id client
+      //	
+      // Valeur de retour :
+      // 	P_NomClient : Nom du client
+      PROCEDURE RechercheNom_Client(Param_id,P_NomClient)
+      ResReq est un booléen
+      REQ_RechercheNom_Client.ParamID = Param_id
+      ResReq = HExécuteRequête(REQ_RechercheNom_Client)
+      si ResReq ALORS
+      	HLitPremier(REQ_RechercheNom_Client)
+      	SI HTrouve ALORS
+      		P_NomClient = REQ_RechercheNom_Client.Nombre
+      	sinon
+      		P_NomClient = ""
+      	FIN
+      FIN
+      
+     type : 458752
+   -
+     name : RechercheNom_Port
+     procedure_id : 1818650961736408548
+     type_code : 15
+     code : |1+
+      // Paramètres en entrée:
+      //	P_code : code port
+      //	
+      // Valeur de retour :
+      // 	P_Nompor : Nom du port
+      PROCEDURE RechercheNom_Port(P_Code,P_Nomport)
+      bResReq est un booléen
+      REQ_RechercheNom_Port.ParamExpr21 = P_Code
+      bResReq = HExécuteRequête(REQ_RechercheNom_Port)
+      SI bResReq ALORS
+      	HLitPremier(REQ_RechercheNom_Port)
+      	SI HTrouve(REQ_RechercheNom_Port) ALORS
+      		P_Nomport	=	REQ_RechercheNom_Port.Expr3
+      	SINON
+      		P_Nomport	=	""
+      	FIN
+      SINON
+      	P_Nomport	=	""
+      FIN
+     type : 458752
+   -
+     name : AlimentationArbre_ClasseActivite
+     procedure_id : 1826173644194765381
+     type_code : 15
+     code : |1-
+      PROCEDURE AlimentationArbre_ClasseActivite()
+      HLitPremier(t_sectionactivite,section_code)
+      TANTQUE HTrouve(t_sectionactivite)
+      	ArbreAjoute(FEN_Arbre_classeactivite.ARBRE_classeactivite,t_sectionactivite.section_description,aDéfaut,aDéfaut,"",aDernier)
+      	
+      	HLitRecherchePremier(t_divisionActivite,division_section,t_sectionactivite.section_code)
+      	TANTQUE HTrouve(t_divisionActivite)
+      		ArbreAjoute(FEN_Arbre_classeactivite.ARBRE_classeactivite,t_sectionactivite.section_description+TAB+t_divisionActivite.division_description,aDéfaut,aDéfaut,"",aDernier)
+      		
+      		HLitRecherchePremier(t_groupeactivite,groupeactivite_division,t_divisionActivite.division_code)
+      		TANTQUE HTrouve(t_groupeactivite)
+      			ArbreAjoute(FEN_Arbre_classeactivite.ARBRE_classeactivite,t_sectionactivite.section_description+TAB+t_divisionActivite.division_description+TAB+t_groupeactivite.groupeactivite_description,aDéfaut,aDéfaut,"",aDernier)
+      			
+      			HLitRecherchePremier(t_classeactivite,classeactivite_groupe,t_groupeactivite.groupeactivite_code)
+      			TANTQUE HTrouve(t_classeactivite)
+      				ArbreAjoute(FEN_Arbre_classeactivite.ARBRE_classeactivite,t_sectionactivite.section_description+TAB+t_divisionActivite.division_description+TAB+t_groupeactivite.groupeactivite_description+TAB+...
+      				t_classeactivite.classeactivite_description,Null,Null,t_classeactivite.classeactivite_code,aDernier)
+      				
+      				
+      				HLitSuivant(t_classeactivite,classeactivite_groupe)
+      			FIN
+      			
+      			HLitSuivant(t_groupeactivite,groupeactivite_division)
+      		FIN
+      		
+      		HLitSuivant(t_divisionActivite,division_section)
+      	FIN
+      	
+      	HLitSuivant(t_sectionactivite)
+      FIN
+     type : 458752
+   -
+     name : RechercheNom_Prospect
+     procedure_id : 1827321637428828958
+     type_code : 15
+     code : |1-
+      // Paramètres en entrée:
+      //	Parm_id : id du prospect
+      //	
+      // Valeur de retour :
+      // 	P_NomProspect : Nom du prospect
+      PROCEDURE RechercheNom_Prospect(Parm_id,P_NomProspect)
+      ResReq est un booléen
+      REQ_RechercheNom_Prospect.Param_id = Parm_id
+      ResReq = HExécuteRequête(REQ_RechercheNom_Prospect)
+      si ResReq ALORS
+      	HLitPremier(REQ_RechercheNom_Prospect)
+      	SI HTrouve ALORS
+      		P_NomProspect = REQ_RechercheNom_Prospect.prosp_raison
+      	sinon
+      		P_NomProspect = ""
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : Prospect_RechercheEtat
+     procedure_id : 1827464818762926362
+     type_code : 15
+     code : |1-
+      // Paramètres en entrée:
+      //	Parm_id : id du Etat du prospect
+      //	
+      // Valeur de retour :
+      // 	P_LibEtatProspect : Description Etat du prospect
+      PROCEDURE Prospect_RechercheEtat(Parm_id,P_LibEtatProspect)
+      ResReq est un booléen
+      REQ_RechercheDescription_EtatClient.Param_etatclient_id = Parm_id
+      ResReq = HExécuteRequête(REQ_RechercheDescription_EtatClient)
+      SI ResReq ALORS
+      	HLitPremier(REQ_RechercheDescription_EtatClient)
+      	SI HTrouve ALORS
+      		P_LibEtatProspect = REQ_RechercheDescription_EtatClient.etatclient_description
+      	SINON
+      		P_LibEtatProspect = ""
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : Prospect_RechercheClasse
+     procedure_id : 1827465523137661011
+     type_code : 15
+     code : |1-
+      PROCEDURE Prospect_RechercheClasse(Parm_id,P_LibClasse)
+      ResReq est un booléen
+      REQ_RechercheDescription_ClasseActivité.Param_codeclasseactivite = Parm_id
+      ResReq = HExécuteRequête(REQ_RechercheDescription_ClasseActivité)
+      SI ResReq ALORS
+      	HLitPremier(REQ_RechercheDescription_ClasseActivité)
+      	SI HTrouve ALORS
+      		P_LibClasse = REQ_RechercheDescription_ClasseActivité.classeactivite_description
+      	SINON
+      		P_LibClasse = ""
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : Prospect_RechercheTypEntite
+     procedure_id : 1827465772245822741
+     type_code : 15
+     code : |1-
+      PROCEDURE Prospect_RechercheTypEntite(Parm_id,P_TypEntite)
+      ResReq est un booléen
+      REQ_RechercheDescription_TypeEntite.Param_idtypent = Parm_id
+      ResReq = HExécuteRequête(REQ_RechercheDescription_TypeEntite)
+      SI ResReq ALORS
+      	HLitPremier(REQ_RechercheDescription_TypeEntite)
+      	SI HTrouve ALORS
+      		P_TypEntite = REQ_RechercheDescription_TypeEntite.typent_description
+      	SINON
+      		P_TypEntite = ""
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : Prospect_RechercheProduit
+     procedure_id : 1827465982699268620
+     type_code : 15
+     code : |1-
+      PROCEDURE Prospect_RechercheProduit(Parm_id,P_Produit)
+      ResReq est un booléen
+      REQ_RechercheDescription_Produit.Param_idprod = Parm_id
+      ResReq = HExécuteRequête(REQ_RechercheDescription_Produit)
+      SI ResReq ALORS
+      	HLitPremier(REQ_RechercheDescription_Produit)
+      	SI HTrouve ALORS
+      		P_Produit = REQ_RechercheDescription_Produit.prod_description
+      	SINON
+      		P_Produit = ""
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : Recherche_Poste
+     procedure_id : 1827663387985544089
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Recherche_Poste (<Param_id>, <P_poste>)
+      //
+      // Paramètres :
+      //	Param_id : <indiquez ici le rôle de Param_id>
+      //	P_poste : <indiquez ici le rôle de P_Description>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      // 	Param_nom : <indiquez ici le rôle de Param_nom>
+      PROCEDURE Recherche_Poste(Param_id,P_poste)
+      HLitRecherche(t_poste,poste_id,Param_id,hIdentique)
+      
+      si htrouve ALORS
+      	P_poste = SansEspace(t_poste.poste_nom)
+      sinon
+      	P_poste = ""
+      FIN
+     type : 458752
+   -
+     name : RechercheNom_Paises
+     procedure_id : 1827936732562760172
+     type_code : 15
+     code : |1-
+      // Paramètres en entrée:
+      //	P_code : code pays
+      //	
+      // Valeur de retour :
+      // 	P_Nompaises : Nom du pays
+      
+      PROCEDURE RechercheNom_Paises(P_Code,P_Nompaises)
+      bResReq est un booléen
+      REQ_RechercheNom_Paises.Param_iWTPais = P_Code
+      bResReq = HExécuteRequête(REQ_RechercheNom_Paises)
+      SI bResReq ALORS
+      	HLitPremier(REQ_RechercheNom_Paises)
+      	SI HTrouve(REQ_RechercheNom_Paises) ALORS
+      		P_Nompaises	=	REQ_RechercheNom_Paises.PANOM
+      	SINON
+      		P_Nompaises	=	""
+      	FIN
+      SINON
+      	P_Nompaises	=	""
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BwAAAAcAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x18da8871003469fb
+  internal_properties : BwAAAAcAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BwAAAAcAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

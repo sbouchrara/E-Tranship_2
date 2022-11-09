@@ -1,0 +1,221 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Arbre_classeactivite
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Arbre_classeactivite
+ identifier : 0x29579f65146466b7
+ internal_properties : BwAAAAcAAABDzMjvhy47VWUgAoaCpQD6V4byZ4YmQQiRqa2JWb2ShqoNmrBWzIhaoleDEP8AIsm9UqEaiXIXg4P4pdMDnlb4vWmXAiUOnWQwcAndRf9h9QGmHLXiWH2GcWgMrF8WtKEf9UbTW+60XRGPGljNyWm5V19cFNz7FuRqPMpwl/DkFQgnFHT4wXrTrsIIdd+2ucGDIQxpWVfroXg1CqJDhfGrgOmpNJEebxAVmNYnWp70ulq1RmYMTY6fIWo6xhdUun7BPScDd9aFWhISFA9FU7MksN3NJqJpDxqY/gsePN+ShTS9EXHY4Wgl8iDaRCs173LB8EqYpWSowFbIt9Rp7PkXlW8l6x/gW+LfS8mx8F5AXreI9ehe9VXLgQLCjypeo3jGIn5cnVirljvap49F4Ci2wXihjWH6W5r5siDSWJiCqEtEJX93PEdi+JWYAnuuApvSNs2Z3BrEp3cUa+mfEKAVPcpb5p6KdK62LaCNEqmWbknKY65OO9zUV+AOmDunh3r2Sft+yA2sBluOKFRWGFxgpLw+bU+wVfVsk63OSy7CmrwXwHJivN+B2UAJzN98jfxv7TJGXNU2akODsboBIB5iPpnU2osNymQSmHuLwD/9zMnwak8h/GN9YSPLpSmd5vyxrTo3AVwLlTxCV1FCdq7gVi6uAoJ0fGVNqH5167y0uz3WN+jlaNyIMMxDBMc+MBw+5XAIsjbdkcLFhal+FyfuzO/PDbbncsvMCIkiay+mCa/4Ln7qi7UJnE/wSgA524vgQcloZrr22ejN9BfQ9w==
+ properties :
+  width : 599
+  height : 444
+  widthClient : 597
+  heightClient : 412
+ controls :
+  -
+    name : ARBRE_classeactivite
+    identifier : 0x29579f841466df13
+    internal_properties : BwAAAAcAAABbMgqRLYtgHiAGfEb1zc2ZVxSUC7d3MOoP5Owdouuv66digksV6k8d4oimYJo94amwCoFIkMNII5Sk09rDLji+p7yn9QcriIRMAXcUeitFyHTgV9lNq7gMimwLA5Nmsf8+yMIow6A2u5Cg/L2o6/aL7iQfn3GWjA9GPIVM+W1naEDYIqLW+sbWDnlw71XEGK2Ky+6MtKpo32vE2y60ly3JHN1huY8UZ4j5PkElb7MKfAMa5TGh99IEEZj+IBLAEEbkFMM8xstWQpsIx7WHaqhuy5KJ5RDnIBXzSHPunI/ywSvHt1Fr4eGheT8UJLRFyjbNTtUauusFcyeykhfKHPq3DXiASx7uurl/25NN8qZr9wvrVevI3tahwmF9fIPuCHqCBsBFR1aJHqMLPpl/kzo2NB6sdgYRKBIGQWHCm5stjB2/1b6mlx/y93CMWweln9Ie4eWklf+9ySVO5OV42zRXxYbUZW37gX803ONGTWiGH4QAVQ6V3Y3bkzTs1uk1x9XzssrjOxWsVd+AOPc0t9xgYYszVMImw8KZEdzDwoXWGuTAZpplJ7OWDRhe/LNRS3aQBVGGfJQsPD+bZ6V5k4FP6V6KViKS24GWImgT+9DnkoJzrN76VbSeHFMW71TuW9IxWrD9FTQwMMab9xS8Swnyz4PKzPtepb/S0k0Pv2wGPjc2yNrbaljsDzF9V5+zjEwKZf6NhWyJq0siaX8A7fgOqtRnQslzemG+wo0IL3s/IbC+WKld2pRTCfdwZ+FZ82xua3Mg4AUkjz9pK1WXAsf4sW5nLctDmFAG7GPr0OFHD1XYwrg0PFR1N7dMhWBxEdt2rNPY025rUiCVZzp3P4WygW89TS+2hF8BPIPUHrIQN0z99DFASdbMa+y+lvErSQD4fDEXB5QMz8j3ukIRgPU3cIztMybsN14rm04ISUGSdykwNk4c/DGtlD+zeuDj9QNdasKuVO3pfrPyPTalJ+4P4/yW+xItyZD4ccyK4YK7cGaBdOGWtv1rs40QABDDpsNifVGE/daslXEOmBbAEKmskEZ/h1WhY/dixLnXIpwJIQ/BrbsH5jvAB+l6MdP8Mec7kzqKuoL6029X+yIZ+JV65DpFAtlWW0YSp95lIWb5vUqarhzCg+tBy1C0GmqTjAJp4+DEtUf8ZaaNKfGT757DP83bzctBSeCM30KF4ovEIGuNw679UdK9ypDWbcMPu/CFxCwfMtmq6GeNc6Sr0wNmoBAPk+C6303lFb3aJ6YwlFyyyzrGaZJinEooiXwAKwbdBvXmO2/wL5hWdalMJX2+wLDoGk4yuq3MdkVP4rzqRrBsVWQwV08iYtryaFVqLnOPBoDYee1uQNQlRPJ+jDeYvLHWr3szcxDLg/qG/pzEYGi0wn7FssO2G7y/r9lo1APj06SdWvBx4FESsXC/vus+Fcg6lr2ci65pFx7p37cVGyzUUe0gz6mS6emY5sKHG8gqEOKB6bYlSYngBZB4JhcG5LJFmyDB0vz+kXzmQe2pjnUnMJcduKyeauixZkH6ru7QF0NabqrZ3BmMSoUAYUl6KSTFHK+79Pp5Wb+gNw3ef+igDIt71nD2vckMwFMvR+eEszV1AMfSXTmvFdMnx4MeH7t+VpW/cxxIetffzgi13/slDZYLh4DwXUu1Q2oJfxzRYeeV4CzgiHwf3F6lC6Evm48VBRCRE2r327Xk9Dergft0tw/kiu3XmGED4k6xWYiJrV2Lpait0UeAwoXyLbDzYoyQsRcfwJRqI6U3YOzCc95GbRNMY2yzLqTZ2WBWrA==
+    properties :
+     x : 6
+     y : 16
+     width : 574
+     height : 379
+    type : 19
+    code_elements :
+     type_code : 25
+     p_codes :
+      -
+        code : |1+
+         //HLitPremier(t_sectionactivite,section_code)
+         //tantque HTrouve(t_sectionactivite)
+         //	ArbreAjoute(ARBRE_classeactivite,t_sectionactivite.section_description,aDéfaut,aDéfaut,"",aDernier)
+         //	
+         //	HLitRecherchePremier(t_divisionActivite,division_section,t_sectionactivite.section_code)
+         //	tantque HTrouve(t_divisionActivite)
+         //		ArbreAjoute(ARBRE_classeactivite,t_sectionactivite.section_description+TAB+t_divisionActivite.division_description,aDéfaut,aDéfaut,"",aDernier)
+         //		
+         //		HLitRecherchePremier(t_groupeactivite,groupeactivite_division,t_divisionActivite.division_code)
+         //		tantque HTrouve(t_groupeactivite)
+         //			ArbreAjoute(ARBRE_classeactivite,t_sectionactivite.section_description+TAB+t_divisionActivite.division_description+tab+t_groupeactivite.groupeactivite_description,aDéfaut,aDéfaut,"",aDernier)
+         //			
+         //			HLitRecherchePremier(t_classeactivite,classeactivite_groupe,t_groupeactivite.groupeactivite_code)
+         //			tantque HTrouve(t_classeactivite)
+         //				ArbreAjoute(ARBRE_classeactivite,t_sectionactivite.section_description+TAB+t_divisionActivite.division_description+TAB+t_groupeactivite.groupeactivite_description+tab+...
+         //				t_classeactivite.classeactivite_description,null,null,t_classeactivite.classeactivite_code,aDernier)
+         //				
+         //				
+         //				HLitSuivant(t_classeactivite,classeactivite_groupe)
+         //			FIN
+         //			
+         //			HLitSuivant(t_groupeactivite,groupeactivite_division)
+         //		FIN
+         //		
+         //		HLitSuivant(t_divisionActivite,division_section)
+         //	FIN
+         //	
+         //	HLitSuivant(t_sectionactivite)
+         //FIN
+         
+         AlimentationArbre_ClasseActivite()
+         
+         
+         
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 19
+        enabled : false
+      -
+        type : 20
+        enabled : false
+      -
+        code : |1-
+         
+         //Info(ARBRE_classeactivite)
+         
+         
+         //Info(sRes_chemin)
+        type : 33
+      -
+        code : |1-
+         sRes_id 		est une chaîne
+         sRes_chemin 	est une chaîne
+         sRes_typelement est une chaîne
+         nRes_nbrocc 	est un entier
+         
+         sRes_chemin = ArbreSelect(ARBRE_classeactivite)
+         sRes_id = ArbreRécupèreIdentifiant(ARBRE_classeactivite,sRes_chemin)
+         sRes_typelement = ArbreTypeElément(ARBRE_classeactivite,sRes_chemin)
+         nRes_nbrocc = ChaîneOccurrence(sRes_chemin,"TAB")
+         
+         si pas ArbreTypeElément(ARBRE_classeactivite,sRes_chemin)=aFeuille ALORS
+         	Erreur("mauvais choix")
+         sinon
+         	sFeuille est chaine 
+         	sFeuille = ExtraitChaîne(sRes_chemin,rangPremier,tab)
+         	tantque sFeuille<>eot
+         		sFeuille = ExtraitChaîne(sRes_chemin,rangSuivant,TAB)
+         		si sFeuille<>eot ALORS
+         			gsWp_Nomelement =  sFeuille
+         		FIN
+         	FIN
+         FIN
+         gsWp_Idelement = sRes_id
+         FEN_Main.SAI_Prospect_classeactivite = gsWp_Nomelement
+         Ferme(FEN_Arbre_classeactivite)
+        type : 31
+      -
+        type : 17
+        enabled : false
+      -
+        code : |1+
+         
+         
+         
+        type : 101
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BwAAAAcAAABHivBqFH8xYQq/QELUltmClIuqm9KM3lg0XSaBAQ41WqT06R9JfU0qGK5sHUl8/xHCuvP3y9tLeLLOVaAgM2FjnfwSCRBgXqneLsHogwTYpIXuB1zp2uXtmOXYyGd6i+ek6BBvtJ0ylgF/MxkRihdZ26pl/9Jf5c+sxo07G0ZzHfcLEu9WD07gTSld25EPGWjvi/e5TxaHOZSRE8C5Ig+YdJawYdK89l+x1ofEmw3pfCNLUe3tNoiwg4AbC1jLdufmJ97Xc0JHDAy7gJsHBzEWwcuroqy2By4PJ4c6Wg==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BwAAAAcAAADG0006i3ptxMcUE+O5cGvDhb43eRlY9UEE1z/7izK93v/ToMiwACETQQw4eQhZuJRMFa6SBwwT+zSdDbdc5HEkXDob51ldPFNKsP+0MWY=
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : Alimentation_Arbreclasse
+     procedure_id : 1826177054399002581
+     type_code : 14
+     code : |1+
+      PROCEDURE Alimentation_Arbreclasse()
+      HLitPremier(t_sectionactivite,section_code)
+      tantque HTrouve(t_sectionactivite)
+      	ArbreAjoute(ARBRE_classeactivite,t_sectionactivite.section_description,aDéfaut,aDéfaut,"",aDernier)
+      	
+      	HLitRecherchePremier(t_divisionActivite,division_section,t_sectionactivite.section_code)
+      	tantque HTrouve(t_divisionActivite)
+      		ArbreAjoute(ARBRE_classeactivite,t_sectionactivite.section_description+TAB+t_divisionActivite.division_description,aDéfaut,aDéfaut,"",aDernier)
+      		
+      		HLitRecherchePremier(t_groupeactivite,groupeactivite_division,t_divisionActivite.division_code)
+      		tantque HTrouve(t_groupeactivite)
+      			ArbreAjoute(ARBRE_classeactivite,t_sectionactivite.section_description+TAB+t_divisionActivite.division_description+tab+t_groupeactivite.groupeactivite_description,aDéfaut,aDéfaut,"",aDernier)
+      			
+      			HLitRecherchePremier(t_classeactivite,classeactivite_groupe,t_groupeactivite.groupeactivite_code)
+      			tantque HTrouve(t_classeactivite)
+      				ArbreAjoute(ARBRE_classeactivite,t_sectionactivite.section_description+TAB+t_divisionActivite.division_description+TAB+t_groupeactivite.groupeactivite_description+tab+...
+      				t_classeactivite.classeactivite_description,null,null,t_classeactivite.classeactivite_code,aDernier)
+      				
+      				
+      				HLitSuivant(t_classeactivite,classeactivite_groupe)
+      			FIN
+      			
+      			HLitSuivant(t_groupeactivite,groupeactivite_division)
+      		FIN
+      		
+      		HLitSuivant(t_divisionActivite,division_section)
+      	FIN
+      	
+      	HLitSuivant(t_sectionactivite)
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BwAAAAcAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x19579f42004cdce5
+  internal_properties : BwAAAAcAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BwAAAAcAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

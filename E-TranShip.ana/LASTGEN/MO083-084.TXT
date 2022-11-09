@@ -1,0 +1,3 @@
+//MO083-084.TXT ANA00083 TO ANA00084
+V_Clientes		NFI		nouveau fichier
+V_Clientes		FIC-	V_Clientes	Fichier supprimé V_Clientes
