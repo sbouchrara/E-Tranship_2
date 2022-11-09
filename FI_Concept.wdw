@@ -248,7 +248,9 @@ window :
             					TableInsèreLigne(FEN_Principale.TABLE_REQ_Concept_3,0,SEL_FI_2_EIOE,SEL_FI_2_LCL,SAI_FI_2_CODE,SAI_FI_2_LIBELLE,SAI_FI_2_COMPTE_TAX,...
             					SAI_FI_2_COMPTE_NONTAX,SAI_FI_2_IdconcepFact,SAI_FI_2_IdconcepPrev,SAI_FI_2_Cref)
             					
-            					TableTrie(FEN_Principale.TABLE_REQ_Concept_3,FEN_Principale.TABLE_REQ_Concept_3.col_EIOE,FEN_Principale.TABLE_REQ_Concept_3.COL,FEN_Principale.TABLE_REQ_Concept_3.COL)
+            					TableTrie(FEN_Principale.TABLE_REQ_Concept_3,FEN_Principale.TABLE_REQ_Concept_3.col_EIOE,FEN_Principale.TABLE_REQ_Concept_3.COL_lcl,FEN_Principale.TABLE_REQ_Concept_3.COL_CODE)
+            					
+            					
             					
             				FIN
             			SINON
